@@ -8,8 +8,8 @@ function compute()
     var interest = principal * years * rate /100;
     var year = new Date().getFullYear()+parseInt(years);
     var ans = "If you deposit " + String(principal) + ",<br>"
-        + "at an interest rate of " + String(rate) + ".\n"
-        + "You will receive an amount of " + String(interest) + ",\n"
+        + "at an interest rate of " + String(rate) + ".<br>"
+        + "You will receive an amount of " + String(interest) + ",<br>"
         + "in the year " + String(year);
     document.getElementById("result").innerHTML=ans;
 }
