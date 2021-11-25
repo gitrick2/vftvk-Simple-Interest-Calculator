@@ -11,10 +11,9 @@ function compute()
         + "at an interest rate of " + String(rate) + ".<br>"
         + "You will receive an amount of " + String(interest) + ",<br>"
         + "in the year " + String(year);
-    //document.getElementById("result").innerHTML=ans;
     if(principal<=0)
     {
-        document.getElementById("principal").scrollIntoView();
+        document.getElementById("principal").focus();
         alert("Enter a positive number");
         return;
     }
