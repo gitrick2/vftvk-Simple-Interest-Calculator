@@ -14,6 +14,7 @@ function compute()
     //document.getElementById("result").innerHTML=ans;
     if(principal<=0)
     {
+        document.getElementById("principal").scrollIntoView();
         alert("Enter a positive number");
         return;
     }
