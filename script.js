@@ -11,13 +11,13 @@ function compute()
         + "at an interest rate of " + String(rate) + ".<br>"
         + "You will receive an amount of " + String(interest) + ",<br>"
         + "in the year " + String(year);
-    document.getElementById("result").innerHTML=ans;
+    //document.getElementById("result").innerHTML=ans;
     if(principal<0)
     {
         alert("Enter a positive number");
         return;
     }
-    //document.getElementById("result").innerHTML=ans;
+    document.getElementById("result").innerHTML=ans;
     //document.getElementById("result").innerHTML="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+amount+",\<br\>in the year "+year+"\<br\>";
 }
 function updateRate() 
