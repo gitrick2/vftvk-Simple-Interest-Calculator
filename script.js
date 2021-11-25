@@ -12,7 +12,7 @@ function compute()
         + "You will receive an amount of " + String(interest) + ",<br>"
         + "in the year " + String(year);
     //document.getElementById("result").innerHTML=ans;
-    if(principal<0)
+    if(principal<=0)
     {
         alert("Enter a positive number");
         return;
