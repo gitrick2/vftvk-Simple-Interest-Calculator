@@ -11,7 +11,7 @@ function compute()
         + "at an interest rate of " + String(rate) + ".<br>"
         + "You will receive an amount of " + String(interest) + ",<br>"
         + "in the year " + String(year);
-    if(principal<=0)
+    if(principal<0)
     {
         alert("Enter a positive number");
         return;
